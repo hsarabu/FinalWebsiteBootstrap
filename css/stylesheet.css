@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color:#f6F6F6;
+}
+
+.bg-middle {
+    background-color: #2F6A77;
+}
+
+.logo {
+    color: #FFFFFF;
+}
+
+.bg-grey {
+    background-color: white;
+
+}
+
+.jumbotron h1 {
+    font-weight: 300;
+}
+
+.jumbotron {
+    height: 500px;
+}
+
+.lowerboxes {
+    padding: 60px 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.glyphTouch {
+    font-size: 85px;
+    color: #2F6A77;
+}
+
+.specs {
+    padding-top: 50px;
+}
+
+.iconStyling {
+    font-size:50px;
+    color: #2F6A77;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #2F6A77;
+    z-index: 9999;
+    border:0;
+    font-size: 12px !important;
+    line-height: 1.45 !important;
+    letter-spacing: 3px;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #2F6A77 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
